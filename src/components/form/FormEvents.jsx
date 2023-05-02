@@ -16,6 +16,7 @@ function FormEvents({ setModal, addUsers }) {
       gender: "",
     },
   ]);
+  console.log(user);
   const handleSubmit = (e) => {
     e.preventDefault();
     setModal(false);

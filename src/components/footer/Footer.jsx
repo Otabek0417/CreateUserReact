@@ -4,7 +4,9 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer-container container">
-        <a href="https://github.com/">Otabek Sodoqiv GitHub</a>
+        <a href="https://github.com/Otabek0417/CreateUserReact">
+          Otabek Sodoqiv GitHub
+        </a>
       </div>
     </div>
   );
