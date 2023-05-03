@@ -4,18 +4,16 @@ import { useRef } from "react";
 import "./FormEvents.css";
 function FormEvents({ setModal, addUsers }) {
   const form = useRef();
-  const [user, setUser] = useState([
-    {
-      id: uuidv4(),
-      imageUrl: "",
-      firstName: "",
-      lastName: "",
-      age: null,
-      from: "",
-      job: " ",
-      gender: "",
-    },
-  ]);
+  const [user, setUser] = useState({
+    id: uuidv4(),
+    imageUrl: "",
+    firstName: "",
+    lastName: "",
+    age: null,
+    from: "",
+    job: " ",
+    gender: "",
+  });
   console.log(user);
   const handleSubmit = (e) => {
     e.preventDefault();

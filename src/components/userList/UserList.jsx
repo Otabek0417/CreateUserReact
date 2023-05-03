@@ -16,7 +16,7 @@ function UserList({ users, handleDelete }) {
               job,
               gender,
             } = user;
-            console.log(user);
+            console.log(id);
             return (
               <div key={id} className="card">
                 <div className="card-inner">

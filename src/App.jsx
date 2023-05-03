@@ -14,7 +14,6 @@ function App() {
   const [users, setUsers] = useState([]);
 
   const handleDelete = (id) => {
-    console.log(id);
     setUsers((prev) => {
       return prev.filter((user) => {
         return user.id !== id;
@@ -24,7 +23,7 @@ function App() {
     // const filterData = users.filter((user) => {
     //   return user.id !== id;
     // });
-    setUsers(filterData);
+    // setUsers(filterData);
   };
   // Close Modal
 
